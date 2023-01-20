@@ -1,0 +1,96 @@
+main {
+  min-height: 80vh;
+  /* //background-color: rgba(233, 235, 232, 0.986); */
+}
+
+h3 {
+  padding: 1rem 0;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+.carousel-caption {
+  position: absolute;
+  top: 0;
+}
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 300px;
+  padding: 30px;
+  margin: 40px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cardd {
+  transition: backgroun-color 0.9s ease-in-out;
+  cursor: pointer;
+  color: white;
+  background-color: white;
+}
+
+.cardd:hover {
+  background-color: rgba(170, 157, 230, 0.829);
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
+
+.box-shadow-hover:hover {
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+.FormLabel {
+  align-items: "center";
+  justify-items: "center";
+  margin-right: "5%";
+}
+
+.card-group {
+  margin: 10px 30px;
+  resize: both;
+}
+
+.itemcode {
+  transition: 0.4s;
+}
+
+.itemcode:hover {
+  background-color: cornsilk;
+  color: blueviolet;
+  font-family: "Courier New", Courier, monospace;
+  font-size: large;
+  font-weight: 600;
+}
